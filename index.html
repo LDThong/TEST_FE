@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO-KARTS</title>
+
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src="index.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/5316ef2f39.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="home w-full lg:h-[4101px] relative bg-[#191919]
+        sm:max-lg:h-[4617px]
+        max-sm:h-[4150px]
+    ">
+        <header class="Header z-[100] fixed flex justify-between w-auto top-[20px] left-[46px] right-[46px] rounded-[12px]
+            sm:max-lg:left-[42px] sm:max-lg:right-[42px]
+            max-sm:left-[10px] max-sm:right-[10px]
+        ">
+            <div class="Logo my-auto w-[125.06px] h-[40.38px]">
+                <div class="logo flex">
+                    <img src="image/Logo.png" alt="" class="">
+                </div>
+            </div>
+            <div class="Right flex w-[108px] h-[48px] gap-[32px] bg-transparent">
+                <div class="Frame my-auto">
+                    <img src="image/Frame.png" alt="" class="w-[28px] h-[28px]">
+                </div>
+                <div
+                    class="Menu_icon flex flex-row items-center justify-center bg-[#292929] w-[48px] h-[48px] rounded-[999px]">
+                    <div class="Frame_22 flex flex-col items-end justify-between w-[18.67px] h-[16.33px]">
+                        <div class="w-[18.67px] h-[2px] rounded-[2px] border-solid bg-[#D9D9D9]"></div>
+                        <div class="w-[11.67px] h-[2px] rounded-[2px] border-solid bg-[#D9D9D9]"></div>
+                        <div class="w-[18.67px] h-[2px] rounded-[2px] border-solid bg-[#D9D9D9]"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="layout h-[500px]
+            max-sm:h-[650px]
+        ">
+            <div class="main flex flex-col gap-[100px]">
+                <div class="Banner h-[720px] bg-no-repeat bg-cover
+                    sm:max-lg:bg-contain
+                    max-sm:bg-contain max-sm:pt-[132px]
+                ">
+                    <div class="Banner_Inner absolute flex items-end justify-between w-full h-[720px] p-[0_46px_40px_46px] z-[20] 
+                        sm:max-lg:p-[0_42px_70px_42px]
+                        max-sm:p-[5px_20px_100px_20px] max-sm:flex-col max-sm:justify-end max-sm:gap-[25px]
+                    ">
+                        <div class="left flex flex-col justify-between gap-[24px] lg:w-[552.25px] lg:h-[262px]
+                            sm:max-lg:w-[400px] sm:max-lg:gap-[15px]
+                            max-sm:gap-[15px] max-sm:w-full max-sm:h-[305px]
+                        ">
+                            <div class="Art lg:w-[892px] 
+                                sm:max-lg:h-[65.6px]
+                                max-sm:h-[72px]
+                            ">
+                                <span id="title-banner" class="font-bold text-[52px] leading-[100%] text-[#ffffff] uppercase
+                                    sm:max-lg:text-[32px]
+                                    max-sm:text-[30px]
+                                "></span>
+                            </div>
+                            <div class="flex lg:w-[552.25px] lg:h-[54px] 
+                                sm:max-lg:flex-col sm:max-lg:gap-[10px]
+                                max-sm:flex-col max-sm:gap-[15px] max-sm:w-[272px]
+                            ">
+                                <span class="Description font-[Space Grotesk] font-normal text-[16px] text-[#D9D9D9]
+                                    sm:max-lg:h-[100px]
+                                "></span>
+                                <div class="h-[57px]">
+                                    <div class="flex items-center justify-center w-[189px] h-[56.5px] bg-[url(file:///D:/TEST_FE_DEV/image/Banner-button.png)] bg-repeat bg-cover text-[#D9D9D9] font-medium text-[16px] leading-[100%]
+
+                                    ">
+                                        Find out more
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Frame_62 flex gap-[8px]">
+                                <input type="radio" name="option" id="radio1" class="item hidden" checked>
+                                <label for="radio1" class="w-[16px] h-[16px] rounded-full border-2 border-[#ffffff] cursor-pointer"></label>
+
+                                <input type="radio" name="option" id="radio2" class="item hidden">
+                                <label for="radio2" class="w-[16px] h-[16px] rounded-full border-2 border-[#ffffff] cursor-pointer "></label>
+
+                                <input type="radio" name="option" id="radio3" class="item hidden">
+                                <label for="radio3" class="w-[16px] h-[16px] rounded-full border-2 border-[#ffffff] cursor-pointer "></label>
+
+                                <input type="radio" name="option" id="radio4" class="item hidden">
+                                <label for="radio4" class="w-[16px] h-[16px] rounded-full border-2 border-[#ffffff] cursor-pointer "></label>
+
+                                <input type="radio" name="option" id="radio5" class="item hidden">
+                                <label for="radio5" class="w-[16px] h-[16px] rounded-full border-2 border-[#ffffff] cursor-pointer "></label>
+                            </div>
+                        </div>
+
+                        <div class="right relative lg:flex lg:justify-end w-[573px]
+                            sm:max-lg:flex sm:max-lg:justify-end
+                            max-sm:w-full
+                        ">
+                            <div class="Shadow absolute left-[50%] flex flex-col w-[240px] h-[210px]
+                                sm:max-lg:left-[40%] sm:max-lg:top-[-18%]
+                                max-sm:left-[12%]
+                            ">
+                                <div class="Ellipse_1 w-[100px] h-[100px] rounded-[50%]"></div>
+                                <div class="Ellipse_2 absolute top[43px] left-[85px] w-[168px] h-[168px] rounded-[50%]"></div>
+                            </div>
+                            <div class="Heading relative lg:w-[384px]
+                                sm:max-lg:w-[290px]
+                                max-sm:w-[100%] 
+                            ">
+                                <div class="Heading-box flex flex-col gap-[12px] p-[16px_16px_22px_16px] rounded-[24px]
+                                    sm:max-lg:pb-[32px]
+                                    max-sm:rounded-[24px_24px_0_0]
+                                ">
+                                    <span class="Heading-title font-normal text-[30px] leading-[100%] uppercase text-[#D9D9D9] text-right
+                                        sm:max-lg:text-[26px]
+                                        max-sm:text-[19px]
+                                    ">Everyday fun for everyone</span>
+                                    <span class="font-bold text-[14px] font-[Space Grotesk] text-[#D9D9D9]
+                                        sm:max-lg:text-[12px]
+                                        max-sm:text-[12px]
+                                    ">A few kilometers from Cheb, we have built a new entertainment centre <span>FUN Arena Cheb</span> for you. You will find entertainment and sports activities for children and adults here.</span>
+                                </div>
+                                <img src="image/image-removebg-preview-1.png" alt="" class="absolute top-[-15%] left-[-5%]
+                                    sm:max-lg:top-[-15%] sm:max-lg:left-[-10%]
+                                    max-sm:left-[-8%]
+                                ">
+                                <div class="absolute top-[90%] right-0 flex gap-[10px] items-center justify-center w-[178px] h-[38px] bg-[#D9D9D9] p-[4px_4px_4px_12px] rounded-[50px] cursor-pointer
+                                    max-sm:w-[100%] max-sm:top-[95%] max-sm:rounded-[0_0_24px_24px] max-sm:gap-[25px]
+                                ">
+                                    <span class="font-[Lexend Deca] font-bold text-[16px] text-[#292929]">+420737878891</span>
+                                    <div class="flex items-center justify-center w-[30px] h-[30px] rounded-[50px] bg-[#E30613]">
+                                        <img src="image/icon-phone.png" alt="" class="w-[14px] h-[14px]">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/demo.png" alt="" class="absolute top-0 w-[100%] h-[720px] opacity-15">
+                </div>
+                <div class="Registration h-fit p-[100px_84px_100px_84px]
+                    sm:max-lg:p-[100px_42px]
+                    max-sm:p-[120px_20px_0px_20px]
+                ">
+                    <div class="Container flex justify-between gap-[80px]
+                        sm:max-lg:flex-col sm:max-lg:gap-[40px]
+                        max-sm:flex-col max-sm:gap-[40px]
+                    ">
+                        <div class="Heading flex flex-col gap-[32px] w-[566px] h-[214px] text-[#D9D9D9]
+                            sm:max-lg:w-full
+                            max-sm:w-[100%] max-sm:gap-[20px]
+                        ">
+                            <span class="font-bold h-[86px] text-[52px] uppercase
+                                sm:max-lg:text-[72px] sm:max-lg:text-center 
+                                max-sm:text-[39px]
+                            ">Registration</span>
+                            <span class="font-normal text-[16px]
+                                max-sm:text-[14px]
+                            ">For organizational and security reasons, every visitor
+                                to the FUN arena <br class="sm:max-lg:hidden max-sm:hidden"/>Cheb must register before entering the attraction. At the
+                                reception, your registration will be completed and you will receive a loyalty card
+                                which<br class="sm:max-lg:hidden max-sm:hidden"/>you will use for our services.</span>
+                        </div>
+                        <div class="Steps flex flex-col gap-[48px] w-[648px] h-[528px]
+                            sm:max-lg:w-[100%]
+                            max-sm:w-[100%] max-sm:gap-[25px] max-sm:h-fit
+                        ">
+                            <div class="Step_1 flex h-[144px]
+                                max-sm:w-[100%] max-sm:h-fit max-sm:gap-[10px]
+                            ">
+                                <div class="font-bold text-[67px] text-center w-[66.47px] h-[50px] mt-[14.8px] leading-[43px] text-[#009FE3] bg-[url(file:///D:/TEST_FE_DEV/image/Step_1.png)] bg-cover bg-repeat
+                                    max-sm:bg-[#414243] max-sm:rounded-[24px_10px_24px_10px] max-sm:text-[0] max-sm:w-[50px] max-sm:bg-none
+                                ">
+                                    <span class="max-sm:text-[50px]">1</span>
+                                </div>
+                                <div class="flex flex-col gap-[8px] w-[581.12px] text-[#D9D9D9]
+                                    sm:max-lg:w-[100%]
+                                    max-sm:w-[100%]
+                                ">
+                                    <div class="bg-[url(file:///D:/TEST_FE_DEV/image/Step_1_1.png)] bg-cover bg-repeat flex items-center pl-[30px] font-bold text-[24px] leading-[64px] w-[581.12px] h-[64px]
+                                        sm:max-lg:w-[100%]
+                                        max-sm:w-[100%] max-sm:bg-none max-sm:bg-[#292929] max-sm:text-[19px] max-sm:pl-[20px] max-sm:rounded-[24px_10px_24px_10px]
+                                    ">
+                                        <span>Choose an Attraction</span>
+                                    </div>
+                                    <span class="pl-[30px]
+                                        max-sm:pl-[20px] max-sm:text-[13px]
+                                    ">Choose from the attractions of the FUN arena.</span>
+                                </div>
+                            </div>
+                            <div class="Step_2 relative flex h-[144px]
+                                max-sm:w-[100%] max-sm:h-fit max-sm:gap-[10px]
+                            ">
+                                <div class="font-bold text-[67px] text-center w-[66.47px] h-[50px] mt-[14.8px] leading-[43px] text-[#009FE3] bg-[url(file:///D:/TEST_FE_DEV/image/Step_1.png)] bg-cover bg-repeat
+                                    max-sm:bg-[#414243] max-sm:rounded-[24px_10px_24px_10px] max-sm:text-[0] max-sm:w-[50px] max-sm:bg-none
+                                ">
+                                    <span class="max-sm:text-[50px]">2</span>
+                                </div>
+                                <div class="flex flex-col gap-[8px] w-[581.12px] text-[#D9D9D9]
+                                    sm:max-lg:w-[100%]
+                                    max-sm:w-[100%]
+                                ">
+                                    <div class="bg-[url(file:///D:/TEST_FE_DEV/image/Step_1_1.png)] bg-cover bg-repeat flex items-center pl-[30px] font-bold text-[24px] leading-[64px] w-[581.12px] h-[64px]
+                                        sm:max-lg:w-[100%]
+                                        max-sm:w-[100%] max-sm:bg-none max-sm:bg-[#292929] max-sm:text-[19px] max-sm:pl-[20px] max-sm:rounded-[24px_10px_24px_10px] max-sm:h-fit
+                                    ">
+                                        <div class="flex items-center justify-between w-[368px]
+                                            sm:max-lg:w-[70%]
+                                            max-sm:w-[100%] max-sm:flex-col max-sm:items-start max-sm:mb-[20px]
+                                        ">
+                                            <span>Register</span>
+                                            <button class="flex items-center justify-center w-[86px] h-[26px] rounded-[8px] p-[4px_8px] bg-[#E30613] font-bold text-[14px] text-[#ffffff]
+
+                                            ">Click
+                                                here</button>
+                                        </div>
+                                        <img src="image/image_QR.png" alt="" class="absolute top-[10%] right-[4.5%]
+                                            sm:max-lg:w-[15%] sm:max-lg:right-[3%]
+                                            max-sm:w-[24%] max-sm:top-[5%] max-sm:right-[5%]
+                                        ">
+                                    </div>
+                                    <div class="w-[363px] pl-[30px]
+                                        sm:max-lg:w-[70%]
+                                        max-sm:pl-[20px] max-sm:w-[100%]
+                                    ">
+                                        <span class="max-sm:text-[13px]">You can register at the reception or by <br class="sm:max-lg:hidden max-sm:hidden"/> clicking the
+                                            button above from the comfort of your home.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Step_3 flex h-[144px]
+                                max-sm:w-[100%] max-sm:h-fit max-sm:gap-[10px]
+                            ">
+                                <div class="font-bold text-[67px] text-center w-[66.47px] h-[50px] mt-[14.8px] leading-[43px] text-[#009FE3] bg-[url(file:///D:/TEST_FE_DEV/image/Step_1.png)] bg-cover bg-repeat
+                                    max-sm:bg-[#414243] max-sm:rounded-[24px_10px_24px_10px] max-sm:text-[0] max-sm:w-[50px] max-sm:bg-none
+                                ">
+                                    <span class="max-sm:text-[50px]">3</span>
+                                </div>
+                                <div class="flex flex-col gap-[8px] w-[581.12px] text-[#D9D9D9]
+                                    sm:max-lg:w-[100%]
+                                    max-sm:w-[100%]
+                                ">
+                                    <div class="bg-[url(file:///D:/TEST_FE_DEV/image/Step_1_1.png)] bg-cover bg-repeat flex items-center pl-[30px] font-bold text-[24px] leading-[64px] w-[581.12px] h-[64px]
+                                            sm:max-lg:w-[100%]
+                                            max-sm:w-[100%] max-sm:bg-none max-sm:bg-[#292929] max-sm:text-[19px] max-sm:pl-[20px] max-sm:rounded-[24px_10px_24px_10px]
+                                        ">
+                                        <span>Have Fun</span>
+                                    </div>
+                                    <span class="pl-[30px]
+                                        max-sm:pl-[20px] max-sm:text-[13px]
+                                    ">Thank you for your online registrations. For each purchase
+                                        you get points, which you can apply to our services and attractions then. We
+                                        look forward to you!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="About p-[0px_84px_50px_84px]
+                    sm:max-lg:px-[42px]
+                    max-sm:p-[0px_20px_0px_20px]
+                ">
+                    <div class="Container flex flex-col items-end gap-[48px] h-[867px]
+                        sm:max-lg:h-fit
+                        max-sm:gap-[25px] max-sm:h-fit
+                    ">
+                        <div class="Title flex justify-between w-[1047px] h-fit
+                            sm:max-lg:flex-col sm:max-lg:gap-[15px] sm:max-lg:w-[100%]
+                            max-sm:flex-col max-sm:w-[100%] max-sm:gap-[20px]
+                        ">
+                            <div class="flex flex-col justify-between w-[578px] h-fit text-[#D9D9D9]
+                                max-sm:w-[100%] max-sm:gap-[15px]
+                            ">
+                                <span class="w-[578px] h-[172px] font-medium text-[52px] leading-[100%] uppercase
+                                    max-sm:w-[100%] max-sm:h-fit max-sm:text-[26px]
+                                ">New
+                                    entertainment centre near Cheb</span>
+                                <span class="w-[365px] h-[48px] text-[16px] leading-[150%]
+                                    max-sm:w-[100%] max-sm:h-fit max-sm:text-[13px]
+                                ">We have been entertaining
+                                    children and adults in western Bohemia for more than 10 years!</span>
+                            </div>
+                            <div class="flex items-end gap-[12px] text-[#D9D9D9]
+                                sm:max-lg:justify-end
+                            ">
+                                <span class="flex items-baseline gap-[12px] font-medium text-[16px] leading-[100%]">Find
+                                    more about us<i class="fa-solid fa-arrow-right w-[24px] h-[24px]"></i></span>
+                            </div>
+                        </div>
+                        <div class="Content relative w-full h-[567px]
+                            sm:max-lg:h-fit
+                            max-sm:h-[220px]
+                        ">
+                            <div class="absolute top-[50%] left-[50%] flex items-center justify-center w-[80px] h-[80px] rounded-[12px] p-[20px_22px] bg-[#009FE3] cursor-pointer
+                                sm:max-lg:top-[35%] max-lg:left-[45%]
+                                max-sm:w-[40px] max-sm:h-[40px] max-sm:top-[40%]
+                            ">
+                                <i class="fa-solid fa-play text-[39.19px] text-[#ffffff]
+                                    max-sm:text-[19.19px]
+                                "></i>
+                            </div>
+                            <img src="image/image_About.png" alt="" class="w-[100%] h-full rounded-[8px]">
+                        </div>
+                    </div>
+                </div>
+                <div class="Activities flex flex-col gap-[48px] p-[0px_84px_100px_84px]
+                    sm:max-lg:px-[42px] sm:max-lg:gap-[20px]
+                    max-sm:gap-[40px] max-sm:p-[0px_20px_50px_20px]
+                ">
+                    <div class="Heading flex items-center justify-between text-[#D9D9D9]
+                        sm:max-lg:items-baseline
+                        max-sm:flex-col max-sm:w-[100%]
+                    ">
+                        <span class="font-bold text-[50px] leading-[100%] uppercase
+                            max-sm:text-[40px]
+                        ">our attractions</span>
+                        <div class="flex items-center gap-[24px] w-[340px] h-[86px]
+                            max-sm:w-[100%] max-sm:justify-around
+                        ">
+                            <span class="max-sm:text-[16px]">Multiple activities at Fun Arena Cheb</span>
+                            <div class="flex items-center gap-[3px]">
+                                <div class="Polygon_2 w-[16px] h-[28px] bg-[#E30613]"></div>
+                                <div class="Polygon_3 w-[16px] h-[28px] bg-[#009FE3]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Content relative flex items-center h-[524px]
+                        sm:max-lg:flex-col sm:max-lg:h-fit
+                        max-sm:flex-col max-sm:w-[100%] max-sm:h-fit
+                    ">
+                        <div class="Tabs p-[40px_0]
+                            sm:max-lg:w-[100%]
+                            max-sm:w-[100%]
+                        ">
+                            <div id="title-list" class="Frame_15 flex flex-col gap-[12px] h-[444px] pr-[40px]
+                                max-sm:w-[100%] max-sm:pr-0
+                            ">
+                                <div
+                                    class="Frame_15_title flex items-center justify-end w-[460px] h-[64px] cursor-pointer rounded-[10px] text-[#292929] p-[0_30px]
+                                        sm:max-lg:w-[90%]
+                                        max-sm:w-[100%]
+                                    ">
+                                    <span class="text-[32px] leading-[100%] uppercase
+                                        sm:max-lg:text-[30px]
+                                        max-sm:text-[22px] max-sm:font-bold
+                                    ">kartarena</span>
+                                </div>
+                                <div
+                                    class="Frame_15_title flex items-center justify-end w-[620px] h-[64px] cursor-pointer pr-[26%] rounded-[10px] text-[#292929] 
+                                        sm:max-lg:w-[100%]
+                                        max-sm:w-[100%]
+                                    ">
+                                    <span class="text-[32px] leading-[100%] uppercase
+                                        sm:max-lg:text-[30px]
+                                        max-sm:text-[22px] max-sm:font-bold
+                                    ">jumparena</span>
+                                </div>
+                                <div
+                                    class="Frame_15_title flex items-center justify-end w-[460px] h-[64px] cursor-pointer rounded-[10px] text-[#292929] p-[0_30px] 
+                                        sm:max-lg:w-[90%]
+                                        max-sm:w-[100%]
+                                    ">
+                                    <span class="text-[32px] leading-[100%] uppercase
+                                        sm:max-lg:text-[30px]
+                                        max-sm:text-[22px] max-sm:font-bold
+                                    ">virtual reality</span>
+                                </div>
+                                <div
+                                    class="Frame_15_title flex items-center justify-end w-[460px] h-[64px] cursor-pointer rounded-[10px] text-[#292929] p-[0_30px]
+                                        sm:max-lg:w-[90%]
+                                        max-sm:w-[100%]
+                                    ">
+                                    <span class="text-[32px] leading-[100%] uppercase
+                                        sm:max-lg:text-[30px]
+                                        max-sm:text-[22px] max-sm:font-bold
+                                    ">multiball</span>
+                                </div>
+                                <div
+                                    class="Frame_15_title flex items-center justify-end w-[460px] h-[64px] cursor-pointer rounded-[10px] text-[#292929] p-[0_30px]
+                                        sm:max-lg:w-[90%]
+                                        max-sm:w-[100%]
+                                    ">
+                                    <span class="text-[32px] leading-[100%] uppercase
+                                        sm:max-lg:text-[30px]
+                                        max-sm:text-[22px] max-sm:font-bold
+                                    ">laser shooting range</span>
+                                </div>
+                                <div
+                                    class="Frame_15_title flex items-center justify-end w-[460px] h-[64px] cursor-pointer rounded-[10px] text-[#292929] p-[0_30px]
+                                        sm:max-lg:w-[90%]
+                                        max-sm:w-[100%]
+                                    ">
+                                    <span class="text-[32px] leading-[100%] uppercase
+                                        sm:max-lg:text-[30px]
+                                        max-sm:text-[22px] max-sm:font-bold
+                                    ">company events</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Image absolute right-0 rounded-[24px]
+                            sm:max-lg:relative
+                            max-sm:relative max-sm:w-[100%] max-sm:bg-contain
+                        ">
+                            <div class="info absolute flex items-end justify-between bottom-0 right-0 w-[747px] h-[84px]
+                                sm:max-lg:w-[100%] sm:max-lg:h-fit sm:max-lg:pl-[25px]
+                                max-sm:w-[100%] max-sm:h-fit
+                            ">
+                                <div class="w-[366.49px] pb-[24px]
+                                    max-sm:w-[100%] max-sm:p-[0_0_12px_12px]
+                                ">
+                                    <span class="font-normal text-[16px] leading-[100%] text-[#ffffff]
+                                        max-sm:text-[13px]
+                                    ">Arena with lots of attractions for children and adults of all ages. Trampolines, climbing wall, ninja track and other attractions.</span>
+                                </div>
+                                <div class="">
+                                    <button class="flex items-center justify-center bg-[#D9D9D9] w-[155px] h-[44px] rounded-[999px] p-[12px_24px]
+                                        max-sm:p-0 max-sm:w-[128px]
+                                    ">
+                                        <span class="font-bold text-[16px] leading-[100%]
+                                            max-sm:text-[12px]
+                                        ">Find out more</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <img src="image/demo.png" alt="" class="z-[15] w-[835px] h-[524px] opacity-10 rounded-[24px]
+                                max-sm:w-[100%] max-sm:h-[280px] max-sm:bg-contain
+                            ">
+                        </div>
+                    </div>
+                </div>
+                <div class="Gifting h-[109px]
+                    sm:max-lg:px-[100px]
+                    max-sm:w-[100%] max-sm:h-fit max-sm:px-[42px]
+                ">
+                    <div class="Frame_54 relative flex items-center max-w-[1000px] h-[109px] mx-auto rounded-[24px] bg-[#E30613]
+                        sm:max-lg:w-[100%] sm:max-lg:justify-between
+                        max-sm:justify-between max-sm:h-fit
+                    ">
+                        <img src="image/3d-render-gift-box-with-ribbon-present-package 1.png" alt="" class="absolute top-[-50%] left-0
+                            sm:max-lg:relative sm:max-lg:w-[25%] sm:max-lg:top-[-5%]
+                            max-sm:w-[25%] max-sm:relative max-sm:left-[-5px]
+                        ">
+                        <div class="w-[237px] h-[50px]
+                            sm:max-lg:hidden
+                            max-sm:hidden
+                        "></div>
+                        <div class="flex flex-col text-[#ffffff]
+                            sm:max-lg:grow
+                            max-sm:gap-[5px] max-sm:py-[10px] max-sm:text-center
+                        ">
+                            <span class="font-medium text-[32px] 
+                                sm:max-lg:text-[16px]
+                                max-sm:text-[16px]
+                            ">Make somebody happy with a gift voucher</span>
+                            <span class="font-medium text-[16px] 
+                                sm:max-lg:text-[11px]
+                                max-sm:text-[10px]
+                            ">The voucher is valid for all services. Unforgettable experiences for children and adults!</span>
+                        </div>
+                        <button class="absolute top-[30%] right-[-5%] flex items-center justify-center w-[115px] h-[44px] rounded-[12px] p-[12px_24px] bg-[#ffffff] hover:bg-[#D9D9D9]
+                            sm:max-lg:relative sm:max-lg:top-0 sm:max-lg:w-[131px]
+                            max-sm:relative max-sm:w-[128px] max-sm:p-[0px_12px] max-sm:right-[-6.5%]
+                        ">
+                            <span class="font-bold text-[16px] text-[#292929]
+                                sm:max-lg:text-[12px]
+                                max-sm:text-[12px]
+                            ">Buy now</span>
+                        </button>
+                    </div>
+                </div>
+                <Footer class="flex flex-col gap-[24px] h-[319px] border-t-[1px] border-[#292929] p-[80px_84px]
+                    sm:max-lg:px-[42px]
+                    max-sm:w-[100%] max-sm:h-fit max-sm:p-[50px_20px]
+                ">
+                    <div class="flex items-center justify-between text-[#ffffff]
+                        max-sm:flex-col max-sm:items-center max-sm:w-[100%] max-sm:gap-[15px]
+                    ">
+                        <img src="image/footer-image.png" alt="" class="sm:max-lg:w-[25%]
+                            max-sm:w-[35%]
+                        ">
+                        <span class="w-[300px] text-[14px] leading-[150%]
+                            sm:max-lg:text-[13px]
+                            max-sm:w-[85%] max-sm:text-[13px] max-sm:text-center
+                        ">
+                            New entertainment centre FUN arena Cheb. You will find entertainment and sports activities for children and adults here.
+                        </span>
+                        <div class="flex flex-col items-end gap-[10px] w-[181px] font-normal text-[14px]
+                            sm:max-lg:text-[13px] sm:max-lg:gap-[5px] sm:max-lg:w-fit
+                            max-sm:w-[100%] max-sm:items-center
+                        ">
+                            <span>
+                                Potočiště 3, 350 02 Odrava
+                            </span>
+                            <span>
+                                fun@funarenacheb.cz
+                            </span>
+                            <span>
+                                +420737878891
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between h-[40px] ">
+                        <div class="Social flex items-center justify-evenly gap-[12px] w-[188px] h-[40px] rounded-[300px] bg-[#292929] p-[4px_12px]
+                            max-sm:justify-evenly max-sm:gap-[6px]
+                        ">
+                            <img src="image/icon-fb.png" alt="" class="cursor-pointer">
+                            <img src="image/icon-inta.png" alt="" class="cursor-pointer">
+                            <img src="image/icon-gmail.png" alt="" class="cursor-pointer">
+                            <img src="image/icon-phone.png" alt="" class="cursor-pointer">
+                        </div>
+                        <div class="Frame_19 flex items-center gap-[48px]">
+                            <span class="font-normal text-[14px] leading-[100%] text-[#ffffff]
+                                max-sm:text-[12px] max-sm:text-right
+                            ">
+                                © 2025 FUN Arena Cheb. All rights Reserved.
+                            </span>
+                            <a href="#" class="flex items-center justify-center w-[40px] h-[40px] rounded-[999px] p-[9px_6px] bg-[#292929]
+                                sm:max-lg:hidden
+                                max-sm:hidden
+                            ">
+                                <img src="image/icon-updown.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </Footer>
+            </div>
+        </div>
+        <div class="Reserve-Now relative w-[264.75px] h-[210px] top-[100px] mx-auto 
+            sm:max-lg:top-[3.2%]
+            max-sm:top-[115px]
+        ">
+            <a href="https://booking.funarenacheb.cz/" target="_blank"
+                class="RN-button z-[99] absolute flex items-center justify-center w-[264.75px] h-[65px] rounded-[8px] top-[60px]">
+                <span class="absolute flex gap-[50px] z-[91] text-[22px] font-bold text-[#D9D9D9] ">
+                    <span>RESERVE</span>
+                    <span>NOW!</span>
+                </span>
+                <div class="Subtract absolute z-[90] w-[166.25px] h-[65px] rounded-[8px]"></div>
+                <div class="Subtract absolute w-[264.75px] h-[65px] rounded-[8px] "></div>
+            </a>
+            <div class="Shadow flex flex-col z-[80] w-[240px] h-[210px]">
+                <div class="Ellipse_1 w-[100px] h-[100px] rounded-[50%]"></div>
+                <div class="Ellipse_2 absolute top[43px] left-[85px] w-[168px] h-[168px] rounded-[50%]"></div>
+            </div>
+        </div>
+        <div class="Floating-logo absolute w-fit top-[28%] left-[2%]
+            max-sm:hidden
+        ">
+            <img src="image/FloatingLogo.png" alt="">
+        </div>
+        <div class="fixed bottom-[2%] right-[5%] z-[99]
+            lg:hidden
+        ">
+            <a href="#" class="flex items-center justify-center w-[40px] h-[40px] rounded-[999px] p-[9px_6px] bg-[#292929]">
+                <img src="image/icon-updown.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

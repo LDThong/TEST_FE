@@ -1,0 +1,107 @@
+* {
+    text-decoration: none;
+    margin: 0;
+}
+
+.Banner {
+    background-image: var(--background-image), linear-gradient(180deg, rgba(25, 25, 25, 0) 52.85%, #191919 88.21%);
+}
+
+.Art {
+    font-family: Big Shoulders Stencil;
+}
+
+.Ellipse_1 {
+    background: radial-gradient(50% 50% at 50% 50%, #E30613 0%, #009FE3 100%);
+    filter: blur(50px);
+}
+
+.Ellipse_2 {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 159, 227, 0.5) 0%, rgba(227, 6, 19, 0.5) 100%);
+    filter: blur(50px);
+}
+
+.Subtract {
+    background-image: url(image/Subtract_1.png);
+    background-repeat: no-repeat;
+    right: 98px;
+}
+
+.Subtract:nth-child(3) {
+    background-image: url(image/Subtract_2.png);
+    background-repeat: no-repeat;
+    left: 1px;
+}
+
+.Polygon_2, .Polygon_3 {
+    clip-path: polygon(50% 0%, 100% 50%, 100% 50%, 0% 50%);
+    rotate: -90deg;
+}
+
+.Frame_15_title {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Frame_15_title:nth-child(1) {
+    background-image: 
+        linear-gradient(90deg, rgba(217, 217, 217, 0.5) 0%, #ffffff 100%), 
+        url('image/Frame_15_1.png');
+}
+
+.Frame_15_title:nth-child(2) {
+    color: #ffffff;
+    font-weight: 400;
+    background-image: 
+    linear-gradient(90deg, rgba(41, 41, 41, 0.5) 0%, #292929 100%), 
+        url('image/Frame_15_2.png');
+}
+
+.Frame_15_title:nth-child(3) {
+    background-image: 
+        linear-gradient(90deg, rgba(217, 217, 217, 0.5) 0%, #ffffff 100%), 
+        url('image/Frame_15_3.png');
+}
+
+.Frame_15_title:nth-child(4) {
+    background-image: 
+        linear-gradient(90deg, rgba(217, 217, 217, 0.5) 0%, #ffffff 100%), 
+        url('image/Frame_15_4.png');
+}
+
+.Frame_15_title:nth-child(5) {
+    background-image: 
+        linear-gradient(90deg, rgba(217, 217, 217, 0.5) 0%, #ffffff 100%), 
+        url('image/Frame_15_5.png');
+}
+
+.Frame_15_title:nth-child(6) {
+    background-image: 
+        linear-gradient(90deg, rgba(217, 217, 217, 0.5) 0%, #ffffff 100%), 
+        url('image/Frame_15_6.png');
+}
+
+.Frame_15_title:nth-child(1), .Frame_15_title:nth-child(2), .Frame_15_title:nth-child(3), .Frame_15_title:nth-child(4), .Frame_15_title:nth-child(5), .Frame_15_title:nth-child(6) {
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+.Image {
+    background-image: 
+    linear-gradient(0deg, #292929 7.74%, rgba(41, 41, 41, 0) 67.2%),
+    url('image/banner-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Heading-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Heading-box {
+    background: rgba(41, 41, 41, 0.6);
+}
+
+input[type=radio]:checked + label{
+    padding: 1px;
+    background-color: #ffffff;
+}
